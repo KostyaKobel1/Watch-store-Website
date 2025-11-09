@@ -18,9 +18,15 @@ li {
 }
 
 :root {
+  /* colors */
+  --orange: #c17f2e;
+  --white: #fff;
+
   scroll-behavior: smooth;
-  font-family: "Rubik", "sans-serif";
-  --alt-text-color: #fff;
+  --primary-font-family: "Rubik", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
+  --alt-text-color: var(--white);
+  --background-color: var(--orange);
 
   /* Spacing */
   --spacing-xs: 0.5rem;
