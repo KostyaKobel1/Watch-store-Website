@@ -48,6 +48,9 @@
       opacity: 1;
       transition: opacity 0.3s ease, text-shadow 0.3s ease,
         text-decoration 0.3s ease;
+      background: none;
+      border: none;
+      cursor: pointer;
       @media (min-width: 990px) {
         opacity: 0;
       }
@@ -66,7 +69,6 @@
       overflow: hidden;
       min-height: 28vh;
       transition: transform 0.3s ease;
-      cursor: pointer;
       @media (min-width: 990px) {
         max-width: 500px;
       }

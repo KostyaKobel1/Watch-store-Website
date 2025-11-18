@@ -1,6 +1,7 @@
 function init() {
   import('./global.header-burger.js');
   import('./index.watches-carousel.js');
+  import('./index.rare-pieces-scroll-view.js');
 }
 
 const totalPartials = document.querySelectorAll(

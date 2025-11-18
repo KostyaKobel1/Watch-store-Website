@@ -126,6 +126,7 @@
         font-weight: 600;
         color: var(--alt-light-color);
         padding: 20px 0;
+        cursor: pointer;
         @media (min-width: 768px) {
           margin: 15px 0 250px;
         }
